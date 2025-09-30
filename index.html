@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Componentes PC</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>🖥️ Tienda de Componentes PC</h1>
+        <div class="saldo-container">
+          <span>Saldo disponible:</span>
+          <span class="saldo" id="saldo">$0</span>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section class="cargar-saldo-section">
+          <h2>Cargar Saldo</h2>
+          <div class="input-group">
+            <input
+              type="number"
+              id="montoInput"
+              placeholder="Ingrese el monto"
+              min="0"
+              step="1000"
+            />
+            <button id="cargarSaldoBtn" class="btn btn-primary">
+              Cargar Saldo
+            </button>
+          </div>
+          <p class="mensaje" id="mensajeSaldo"></p>
+        </section>
+
+        <section class="productos-section">
+          <h2>Productos Disponibles</h2>
+          <div class="productos-grid" id="productosGrid"></div>
+        </section>
+
+        <section class="carrito-section">
+          <h2>Carrito de Compras</h2>
+          <div id="carritoContainer">
+            <p class="carrito-vacio">El carrito está vacío</p>
+          </div>
+          <div class="carrito-total">
+            <span>Total:</span>
+            <span id="carritoTotal">$0</span>
+          </div>
+          <button id="vaciarCarritoBtn" class="btn btn-secondary">
+            Vaciar Carrito
+          </button>
+        </section>
+
+        <section class="historial-section">
+          <h2>Historial de Compras</h2>
+          <button id="verHistorialBtn" class="btn btn-secondary">
+            Ver Historial
+          </button>
+          <div id="historialContainer" class="historial-container"></div>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
