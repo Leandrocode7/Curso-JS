@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Placa de Video RTX 4060",
+    "precio": 800000,
+    "descripcion": "Tarjeta gráfica de última generación con 8GB GDDR6",
+    "stock": 15,
+    "categoria": "GPU",
+    "imagen": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 2,
+    "nombre": "Micro Procesador Intel i7",
+    "precio": 450000,
+    "descripcion": "Procesador de 12 núcleos para alto rendimiento",
+    "stock": 20,
+    "categoria": "CPU",
+    "imagen": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 3,
+    "nombre": "Motherboard ASUS ROG",
+    "precio": 400000,
+    "descripcion": "Placa madre gaming con RGB y WiFi integrado",
+    "stock": 12,
+    "categoria": "Motherboard",
+    "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 4,
+    "nombre": "Memoria RAM 32GB DDR5",
+    "precio": 280000,
+    "descripcion": "Kit de 2x16GB 6000MHz para gaming extremo",
+    "stock": 25,
+    "categoria": "RAM",
+    "imagen": "https://images.unsplash.com/photo-1562976540-1502c2145186?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 5,
+    "nombre": "SSD NVMe 1TB",
+    "precio": 180000,
+    "descripcion": "Disco sólido M.2 con velocidades de 7000MB/s",
+    "stock": 30,
+    "categoria": "Almacenamiento",
+    "imagen": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 6,
+    "nombre": "Fuente 850W Modular",
+    "precio": 220000,
+    "descripcion": "Fuente certificación 80 Plus Gold modular",
+    "stock": 18,
+    "categoria": "PSU",
+    "imagen": "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400&h=300&fit=crop"
+  }
+]
